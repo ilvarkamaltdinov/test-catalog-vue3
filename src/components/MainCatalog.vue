@@ -18,7 +18,7 @@
   <VueEternalLoading :load="load" margin="16px">
     <template #loading>
       <ul class="catalog">
-        <CatalogItem v-for="item in 6" :key="item"/>
+        <CatalogItem v-for="item in 8" :key="item"/>
       </ul>
     </template>
     <template #no-more>
